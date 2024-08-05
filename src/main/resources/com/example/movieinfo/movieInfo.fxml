@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movieinfo.MovieInfoController">
+    <children>
+        <Label text="Movie Information" style="-fx-font-size: 18pt; -fx-font-weight: bold;" />
+        <Label text="Title:" />
+        <Label fx:id="titleLabel" />
+        <Label text="Year:" />
+        <Label fx:id="yearLabel" />
+        <Label text="Director:" />
+        <Label fx:id="directorLabel" />
+        <Label text="Plot:" />
+        <Label fx:id="plotLabel" wrapText="true" />
+    </children>
+</VBox>
